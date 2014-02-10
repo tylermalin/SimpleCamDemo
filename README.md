@@ -5,6 +5,10 @@
 <b>**Note - This is only a demo. The SimpleCamSDK is required for the project to function**</b>
 </p>
 
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/SimpleCamScreenShots/SimpleCamHeader.jpg?raw=true"><img />
+</p>
+
 ###What Is SimpleCam?
 
 Do you have a project that you want to include photo taking capabilities, but it’s not the prime focus of your app and you don’t want to spend a lot of time developing it, then SimpleCam is perfect for you.
@@ -42,7 +46,9 @@ We hope you find the project as useful as we did, and we'll continue to add more
 - Drag SimpleCamSDK into your Xcode project
 - Make sure "Copy items into destination group's folder (if needed)" is selected
 
-![alt tag] (https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/AddingSimpleCamSDK.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/AddingSimpleCamSDK.gif?raw=true" width=600></img> 
+</p>
 
 ###2. Your ViewController.h File
 
@@ -58,7 +64,9 @@ We hope you find the project as useful as we did, and we'll continue to add more
 @end
 ```
 
-![alt tag] (https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/ViewControllerHeader.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/ViewControllerHeader.gif?raw=true"><img />
+</p>
 
 ###3. Set Up Delegate
 
@@ -79,7 +87,9 @@ We hope you find the project as useful as we did, and we'll continue to add more
 
 This is how SimpleCam will notify your ViewController that the user is finished with it.  If there is an image, then the user took a picture.  If there is not, then the user backed out of the camera without taking a photograph.
 
-![alt tag] (https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/SetUpDelegate.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/SetUpDelegate.gif?raw=true" width=750></img> 
+</p>
 
 ###4. Launch SimpleCam
 
@@ -102,4 +112,39 @@ If you'd like to launch simple cam when the user presses a button, you could add
 ```
 That's it, it's as  simple as that.  SimpleCam will take care of everything else.
 
+#Screen Shots
 
+###Portrait
+
+<h5 align="center">Camera (About To Capture)</h5>
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/SimpleCamScreenShots/portrait_Camera.png?raw=true" width=320></img> 
+</p>
+
+<h5 align="center">Preview (Shows Captured Image)</h5>
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/SimpleCamScreenShots/portrait_Preview.png?raw=true" width=320></img> 
+</p>
+
+<h5 align="center">Preview - Rotated (Maintains Captured Image Ratio)</h5>
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/SimpleCamScreenShots/portrait_RotatedPreview.png?raw=true" width=568></img> 
+</p>
+
+
+###Landscape
+
+<h5 align="center">Camera (About To Capture)</h5>
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/SimpleCamScreenShots/landscape_Camera.png?raw=true" width=568></img> 
+</p>
+
+<h5 align="center">Preview (Shows Captured Image)</h5>
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/SimpleCamScreenShots/landscape_Preview.png?raw=true" width=568></img> 
+</p>
+
+<h5 align="center">Preview - Rotated (Maintains Captured Image Ratio)</h5>
+<p align="center">
+  <img src="https://github.com/LoganWright/SimpleCamDemo/blob/master/SimpleCamDemo/SimpleCamScreenShots/landscape_RotatedPreview.png?raw=true" width=320></img> 
+</p>
