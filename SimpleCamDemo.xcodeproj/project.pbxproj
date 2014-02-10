@@ -26,6 +26,13 @@
 		8079717B18A96BAF004B871D /* SetUpDelegate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8079717718A96BAF004B871D /* SetUpDelegate.gif */; };
 		8079717C18A96BAF004B871D /* ViewControllerHeader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8079717818A96BAF004B871D /* ViewControllerHeader.gif */; };
 		8079717E18A9713A004B871D /* ViewControllerHeaderExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 8079717D18A9713A004B871D /* ViewControllerHeaderExample.png */; };
+		8079718718A9818E004B871D /* landscape_Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8079718018A9818E004B871D /* landscape_Camera.png */; };
+		8079718818A9818E004B871D /* landscape_Preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 8079718118A9818E004B871D /* landscape_Preview.png */; };
+		8079718918A9818E004B871D /* landscape_RotatedPreview.png in Resources */ = {isa = PBXBuildFile; fileRef = 8079718218A9818E004B871D /* landscape_RotatedPreview.png */; };
+		8079718A18A9818E004B871D /* portrait_Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8079718318A9818E004B871D /* portrait_Camera.png */; };
+		8079718B18A9818E004B871D /* portrait_Preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 8079718418A9818E004B871D /* portrait_Preview.png */; };
+		8079718C18A9818E004B871D /* portrait_RotatedPreview.png in Resources */ = {isa = PBXBuildFile; fileRef = 8079718518A9818E004B871D /* portrait_RotatedPreview.png */; };
+		8079718D18A9818E004B871D /* SimpleCamHeader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8079718618A9818E004B871D /* SimpleCamHeader.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,13 @@
 		8079717718A96BAF004B871D /* SetUpDelegate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SetUpDelegate.gif; sourceTree = "<group>"; };
 		8079717818A96BAF004B871D /* ViewControllerHeader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ViewControllerHeader.gif; sourceTree = "<group>"; };
 		8079717D18A9713A004B871D /* ViewControllerHeaderExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewControllerHeaderExample.png; sourceTree = "<group>"; };
+		8079718018A9818E004B871D /* landscape_Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape_Camera.png; sourceTree = "<group>"; };
+		8079718118A9818E004B871D /* landscape_Preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape_Preview.png; sourceTree = "<group>"; };
+		8079718218A9818E004B871D /* landscape_RotatedPreview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscape_RotatedPreview.png; sourceTree = "<group>"; };
+		8079718318A9818E004B871D /* portrait_Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portrait_Camera.png; sourceTree = "<group>"; };
+		8079718418A9818E004B871D /* portrait_Preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portrait_Preview.png; sourceTree = "<group>"; };
+		8079718518A9818E004B871D /* portrait_RotatedPreview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portrait_RotatedPreview.png; sourceTree = "<group>"; };
+		8079718618A9818E004B871D /* SimpleCamHeader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SimpleCamHeader.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +180,7 @@
 		8079717418A96BA2004B871D /* SimpleCamImages */ = {
 			isa = PBXGroup;
 			children = (
+				8079717F18A9818E004B871D /* SimpleCamScreenShots */,
 				8079717D18A9713A004B871D /* ViewControllerHeaderExample.png */,
 				8079717518A96BAF004B871D /* AddingSimpleCamSDK.gif */,
 				8079717618A96BAF004B871D /* LaunchSimpleCam.gif */,
@@ -173,6 +188,20 @@
 				8079717818A96BAF004B871D /* ViewControllerHeader.gif */,
 			);
 			name = SimpleCamImages;
+			sourceTree = "<group>";
+		};
+		8079717F18A9818E004B871D /* SimpleCamScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				8079718018A9818E004B871D /* landscape_Camera.png */,
+				8079718118A9818E004B871D /* landscape_Preview.png */,
+				8079718218A9818E004B871D /* landscape_RotatedPreview.png */,
+				8079718318A9818E004B871D /* portrait_Camera.png */,
+				8079718418A9818E004B871D /* portrait_Preview.png */,
+				8079718518A9818E004B871D /* portrait_RotatedPreview.png */,
+				8079718618A9818E004B871D /* SimpleCamHeader.jpg */,
+			);
+			path = SimpleCamScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +285,15 @@
 				8079714518A96877004B871D /* InfoPlist.strings in Resources */,
 				8079717A18A96BAF004B871D /* LaunchSimpleCam.gif in Resources */,
 				8079717918A96BAF004B871D /* AddingSimpleCamSDK.gif in Resources */,
+				8079718918A9818E004B871D /* landscape_RotatedPreview.png in Resources */,
+				8079718D18A9818E004B871D /* SimpleCamHeader.jpg in Resources */,
 				8079714E18A96877004B871D /* Main.storyboard in Resources */,
+				8079718A18A9818E004B871D /* portrait_Camera.png in Resources */,
+				8079718818A9818E004B871D /* landscape_Preview.png in Resources */,
+				8079718718A9818E004B871D /* landscape_Camera.png in Resources */,
 				8079717E18A9713A004B871D /* ViewControllerHeaderExample.png in Resources */,
+				8079718C18A9818E004B871D /* portrait_RotatedPreview.png in Resources */,
+				8079718B18A9818E004B871D /* portrait_Preview.png in Resources */,
 				8079717B18A96BAF004B871D /* SetUpDelegate.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
