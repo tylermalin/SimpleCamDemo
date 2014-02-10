@@ -25,6 +25,7 @@
 		8079717A18A96BAF004B871D /* LaunchSimpleCam.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8079717618A96BAF004B871D /* LaunchSimpleCam.gif */; };
 		8079717B18A96BAF004B871D /* SetUpDelegate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8079717718A96BAF004B871D /* SetUpDelegate.gif */; };
 		8079717C18A96BAF004B871D /* ViewControllerHeader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8079717818A96BAF004B871D /* ViewControllerHeader.gif */; };
+		8079717E18A9713A004B871D /* ViewControllerHeaderExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 8079717D18A9713A004B871D /* ViewControllerHeaderExample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8079717618A96BAF004B871D /* LaunchSimpleCam.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LaunchSimpleCam.gif; sourceTree = "<group>"; };
 		8079717718A96BAF004B871D /* SetUpDelegate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SetUpDelegate.gif; sourceTree = "<group>"; };
 		8079717818A96BAF004B871D /* ViewControllerHeader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ViewControllerHeader.gif; sourceTree = "<group>"; };
+		8079717D18A9713A004B871D /* ViewControllerHeaderExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewControllerHeaderExample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +122,7 @@
 		8079714018A96877004B871D /* SimpleCamDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8079717418A96BA2004B871D /* SimpleCamGIFs */,
+				8079717418A96BA2004B871D /* SimpleCamImages */,
 				8079714918A96877004B871D /* AppDelegate.h */,
 				8079714A18A96877004B871D /* AppDelegate.m */,
 				8079714C18A96877004B871D /* Main.storyboard */,
@@ -161,15 +163,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8079717418A96BA2004B871D /* SimpleCamGIFs */ = {
+		8079717418A96BA2004B871D /* SimpleCamImages */ = {
 			isa = PBXGroup;
 			children = (
+				8079717D18A9713A004B871D /* ViewControllerHeaderExample.png */,
 				8079717518A96BAF004B871D /* AddingSimpleCamSDK.gif */,
 				8079717618A96BAF004B871D /* LaunchSimpleCam.gif */,
 				8079717718A96BAF004B871D /* SetUpDelegate.gif */,
 				8079717818A96BAF004B871D /* ViewControllerHeader.gif */,
 			);
-			name = SimpleCamGIFs;
+			name = SimpleCamImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +257,7 @@
 				8079717A18A96BAF004B871D /* LaunchSimpleCam.gif in Resources */,
 				8079717918A96BAF004B871D /* AddingSimpleCamSDK.gif in Resources */,
 				8079714E18A96877004B871D /* Main.storyboard in Resources */,
+				8079717E18A9713A004B871D /* ViewControllerHeaderExample.png in Resources */,
 				8079717B18A96BAF004B871D /* SetUpDelegate.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
