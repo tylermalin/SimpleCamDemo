@@ -21,6 +21,10 @@
 		8079715C18A96877004B871D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8079713E18A96877004B871D /* UIKit.framework */; };
 		8079716418A96877004B871D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8079716218A96877004B871D /* InfoPlist.strings */; };
 		8079716618A96877004B871D /* SimpleCamDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079716518A96877004B871D /* SimpleCamDemoTests.m */; };
+		8079717918A96BAF004B871D /* AddingSimpleCamSDK.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8079717518A96BAF004B871D /* AddingSimpleCamSDK.gif */; };
+		8079717A18A96BAF004B871D /* LaunchSimpleCam.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8079717618A96BAF004B871D /* LaunchSimpleCam.gif */; };
+		8079717B18A96BAF004B871D /* SetUpDelegate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8079717718A96BAF004B871D /* SetUpDelegate.gif */; };
+		8079717C18A96BAF004B871D /* ViewControllerHeader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8079717818A96BAF004B871D /* ViewControllerHeader.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		8079716118A96877004B871D /* SimpleCamDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleCamDemoTests-Info.plist"; sourceTree = "<group>"; };
 		8079716318A96877004B871D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8079716518A96877004B871D /* SimpleCamDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCamDemoTests.m; sourceTree = "<group>"; };
+		8079717518A96BAF004B871D /* AddingSimpleCamSDK.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AddingSimpleCamSDK.gif; sourceTree = "<group>"; };
+		8079717618A96BAF004B871D /* LaunchSimpleCam.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LaunchSimpleCam.gif; sourceTree = "<group>"; };
+		8079717718A96BAF004B871D /* SetUpDelegate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SetUpDelegate.gif; sourceTree = "<group>"; };
+		8079717818A96BAF004B871D /* ViewControllerHeader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ViewControllerHeader.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 		8079714018A96877004B871D /* SimpleCamDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8079717418A96BA2004B871D /* SimpleCamGIFs */,
 				8079714918A96877004B871D /* AppDelegate.h */,
 				8079714A18A96877004B871D /* AppDelegate.m */,
 				8079714C18A96877004B871D /* Main.storyboard */,
@@ -150,6 +159,17 @@
 				8079716218A96877004B871D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8079717418A96BA2004B871D /* SimpleCamGIFs */ = {
+			isa = PBXGroup;
+			children = (
+				8079717518A96BAF004B871D /* AddingSimpleCamSDK.gif */,
+				8079717618A96BAF004B871D /* LaunchSimpleCam.gif */,
+				8079717718A96BAF004B871D /* SetUpDelegate.gif */,
+				8079717818A96BAF004B871D /* ViewControllerHeader.gif */,
+			);
+			name = SimpleCamGIFs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +249,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8079715318A96877004B871D /* Images.xcassets in Resources */,
+				8079717C18A96BAF004B871D /* ViewControllerHeader.gif in Resources */,
 				8079714518A96877004B871D /* InfoPlist.strings in Resources */,
+				8079717A18A96BAF004B871D /* LaunchSimpleCam.gif in Resources */,
+				8079717918A96BAF004B871D /* AddingSimpleCamSDK.gif in Resources */,
 				8079714E18A96877004B871D /* Main.storyboard in Resources */,
+				8079717B18A96BAF004B871D /* SetUpDelegate.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +405,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleCamDemo/SimpleCamDemo-Prefix.pch";
 				INFOPLIST_FILE = "SimpleCamDemo/SimpleCamDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/loganwright/Dropbox/Programming/xCode/_\\ MyFrameworks/SimpleCamDemo/SimpleCamDemo/SimpleCamSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +422,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleCamDemo/SimpleCamDemo-Prefix.pch";
 				INFOPLIST_FILE = "SimpleCamDemo/SimpleCamDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/loganwright/Dropbox/Programming/xCode/_\\ MyFrameworks/SimpleCamDemo/SimpleCamDemo/SimpleCamSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
