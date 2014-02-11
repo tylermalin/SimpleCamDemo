@@ -2,7 +2,7 @@
 
 ##A Memory Efficient Drop In Replacement for UIImagePicker
 <p align="center">
-<b>**Note - This is only a demo. The SimpleCamSDK is required for the project to function**</b>
+<b>**Note - An actual device is required for testing camera capabilities**</b>
 </p>
 
 <p align="center">
