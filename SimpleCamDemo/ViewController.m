@@ -40,6 +40,7 @@
     imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     [self.view addSubview:imageView];
+    
 }
 
 - (void)didReceiveMemoryWarning
