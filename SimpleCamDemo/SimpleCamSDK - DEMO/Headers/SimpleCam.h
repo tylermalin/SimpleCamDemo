@@ -19,4 +19,6 @@
 
 @property (retain, nonatomic) id <SimpleCamDelegate> delegate;
 
+@property BOOL isSquareMode;
+
 @end

@@ -60,6 +60,11 @@
     
     SimpleCam * simpleCam = [[SimpleCam alloc]init];
     simpleCam.delegate = self;
+    
+    // If you'd like to use a square version
+    // simpleCam.isSquareMode = YES;
+    //
+    
     [self presentViewController:simpleCam animated:YES completion:nil];
 }
 
